@@ -1,0 +1,126 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPNgi2X9CV9bDkuc733MUF4",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/MatheusRoco2422/Matheus/blob/main/aula%2017/09.ipynb%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "id": "OMukFJ3rD7mw",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "069ab8d3-209c-424e-f717-8824ea3d03ad"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite seu numero: 9\n",
+            "este número 9 é multiplo de 3\n"
+          ]
+        }
+      ],
+      "source": [
+        "#colocar um número inteiro\n",
+        "X = int(input(\"digite seu numero: \"))\n",
+        "if X % 3 == 0:\n",
+        "  print(f\"este número {X} é multiplo de 3\")\n",
+        "else:\n",
+        "  print(f\"este número {X} não é multiplo de 3\")\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "N1 = float(input(\"digite a N1: \"))\n",
+        "N2 = float(input(\"digite a N2: \"))\n",
+        "NF = (N1*0.4+N2*0.6)\n",
+        "if NF>=5:\n",
+        "  print(f\"voce foi aprovado, com media {NF}\")\n",
+        "else:\n",
+        "  print(f\"voce foi reprovado com media {NF}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jdC2oUtImYFf",
+        "outputId": "66d9a476-7a7b-41f0-9d27-4fa79dac2030"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite a N1: 4\n",
+            "digite a N2: 8\n",
+            "voce foi aprovado, com media 6.4\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "A = float(input(\"Digite A: \"))\n",
+        "B = float(input(\"Digite B: \"))\n",
+        "C = float(input(\"Digite C: \"))\n",
+        "if A<=B and A<=C:\n",
+        "  menorvalor = A\n",
+        "elif B<=A and B<=C:\n",
+        "  menorvalor = B\n",
+        "else:\n",
+        "  menorvalor = C\n",
+        "print(f\"o menor valor é {menorvalor}\")\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "AsfGPPn1rxE9",
+        "outputId": "a76d5976-429f-4353-cd39-f8cf0094ad02"
+      },
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite A: 7\n",
+            "Digite B: 8\n",
+            "Digite C: 9\n",
+            "o menor valor é 7.0\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
